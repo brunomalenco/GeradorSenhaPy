@@ -11,10 +11,10 @@ class PassGen:
         sg.theme("Black")
 
         layout = [
-            [sg.Text("Site | Programa", size=(20, 1)),
+            [sg.Text("Site | Programa", size=(18, 1)),
             sg.Input(key='site', size=(20, 1))],
 
-            [sg.Text("Email | Usuario", size=(20, 1)),
+            [sg.Text("Email | Usuario", size=(18, 1)),
             sg.Input(key=('usuario'), size=(20,1))],
 
             [sg.Text("Quantidade de caracteres"), sg.Combo(values=list(range(1, 31)), key="total_carac", default_value = 1, size=(10, 1))],
