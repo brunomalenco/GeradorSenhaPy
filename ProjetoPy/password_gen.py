@@ -45,7 +45,7 @@ class PassGen:
         with open("senhas.txt", 'a', newline='') as arquivo:
             arquivo.write(f" Site: {valores['site']} \n Usuario: {valores['usuario']}\n Nova senha: {nova_senha}")
         
-        print("Senha salva com sucesso !!")
+        print("Senha salva com sucesso !")
 
 gen = PassGen()
 gen.iniciar()
